@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 0: February 06, 2017
+
+**Today's Progress**: Started 100 Days Of Code by forking the repo. Yay me.
+
+**Thoughts:** I'm really excited to commit to this--it's just what I need. I will be setting aside at least an hour a day (no school time included). I hope to work on a balance of freeCodeCamp, personal, and potentially school related projects.
+
+**Link to work:** [100 Days Of Code](https://github.com/sethmchris/100-days-of-code)
+
+comment]: <> (
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
@@ -28,3 +37,4 @@
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+)
