@@ -8,6 +8,40 @@
 
 **Link to work:** [100 Days Of Code](https://github.com/sethmchris/100-days-of-code)
 
+### Day 1: February 07, 2017
+
+**Today's Progress**: Worked on basic investment rate app. Modified it to use do/while loops, for loops, and if statements.
+
+**Thoughts:** I'm pestered at how long this is taking me. It's an exercise in a book with basic explanation as to how to modify. I've figured it most of it out slowly, but I refuse to look at the solution yet. One step to go as of writing. Heading to freeCodeCamp to brush up on iterating for loops.
+
+**Link to work:** [100 Days Of Code](https://github.com/sethmchris/100-days-of-code/blob/master/future_value.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!---
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
