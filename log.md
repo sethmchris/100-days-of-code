@@ -8,7 +8,7 @@
 
 **Link to work:** [100 Days Of Code](https://github.com/sethmchris/100-days-of-code)
 
-comment]: <> (
+[comment]: <> (
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
