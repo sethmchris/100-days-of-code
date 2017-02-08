@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Future Value Application</title>
+    <script>
+		
+    </script>
+    
+</head>
+<body>
+    <main>
+    	<script>
+    	 // Required: use if statements, do loops, and for loops 
+    		var numberOfLoops = 1;
+    		var counter = 0;
+				// get user entries
+				do {
+					// get investment until it is a number
+					do {
+						var investment = prompt("Enter investment amount as xxxxx.xx", 10000);
+						investment = parseFloat(investment);
+						if ( isNaN(investment) ) {
+							alert("Investment must be a number");
+						}
+					}
+					while ( isNaN(investment) );
+					// get rate until it's a number and it's in between 1 and 15
+					do {
+						var rate = prompt("Enter interest rate as xx.x", 7.5);
+						rate = parseFloat(rate);
+						if ( isNaN(rate) ) {
+							alert("Interest rate must be a number");
+						}
+						else if (rate <= 0 | rate > 15) {
+							alert("Interest rate must be in between 1 and 15");
+						}
+					}
+					while ( isNaN(rate) | rate <= 0 | rate > 15 );
+
+					// contine to get user entries
+					var years = prompt("Enter number of years", 10);
+					years = parseInt(years);
+
+					// calulate future value
+					var futureValue = investment;
+					for (var i = 1; i <= years; i++ ) {
+						futureValue = futureValue + (futureValue * rate / 100);
+					}
+					futureValue = parseInt(futureValue);
+
+					document.write("\nInvestment amount = " + investment);
+					document.write(" Interest rate = " + rate);
+					document.write(" Years = " + years);
+					document.write(" Future Value is " + futureValue + "<br><br>");
+
+					//count for each time loop iterates
+					counter++;
+				}
+				while (counter <= numberOfLoops);
+        </script>
+        Thanks for using the Future Value application.
+    </main>
+</body>
+</html>
